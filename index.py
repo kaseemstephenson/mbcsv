@@ -1,8 +1,8 @@
 fileContent = ""
 linee = ""
 file1 = open('temptemp.csv',"w")
-sku = "CDS"
-host = "https://merchboothphotos.herokuapp.com/"
+sku = "TALB"
+host = "https://merchboothphotos3.herokuapp.com/"
 replaceCounter = 0
 designCounter = 1
 imgSrc = host+sku+"-"+str(designCounter)+'-0'

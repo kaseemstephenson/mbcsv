@@ -1,15 +1,15 @@
 fileContent = ""
 linee = ""
-file1 = open('temptemp.csv',"w")
-sku = "SOP"
+file1 = open('temptemptemp.csv',"w")
+sku = "RMCK"
 host = "https://merchboothphotos.herokuapp.com/"
 replaceCounter = 0
 designCounter = 1
 imgSrc = host+sku+"-"+str(designCounter)+'-0'
-with open('temp.csv') as topo_file:
+with open('temptemp.csv') as topo_file:
     for line in topo_file:
         #print (line) 
-        if designCounter == 5:
+        if designCounter == 10:
             break
         if replaceCounter == 6:
             designCounter+=1
